@@ -1661,12 +1661,13 @@
   flex-wrap: wrap;
   margin: 0;
 
-  gap: 70px;
+  gap: 40px;
 }
 
 .filters-form__fieldset {
   display: flex;
   flex-direction: column;
+  width: 180px;
   margin: 0;
   padding: 0;
 
@@ -1699,7 +1700,8 @@
 
 .filters-form__range-field {
   width: 288px;
-  margin-left: 80px;
+  margin-left: 70px;
+  margin-right: auto;
 }
 
 .appointment-form {
